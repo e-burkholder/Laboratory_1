@@ -48,7 +48,7 @@ int main(void) {
 	
 	//present result and terminate prgram execution
 	cout << convertedTemperature << " " << convertedScale << endl;
-	cout << "Press 'Enter' to continue...";
+	cout << "Press 'Enter' to exit...";
 	cin.ignore();
 	cin.get();
 	return 0;
